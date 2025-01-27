@@ -42,6 +42,6 @@ if __name__ == "__main__":
     gestor.escribir_linea(
         "Este es un ejemplo de implementación personalizada de constructores y destructores en Python.")
 
-    # Forzar la eliminación del objeto para llamar al destructor explícitamente
+    # Forzar la eliminación
     del gestor
     print("Fin del programa. El archivo ha sido manejado correctamente.")
